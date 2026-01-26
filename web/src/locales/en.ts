@@ -1011,6 +1011,30 @@ Example: Virtual Hosted Style`,
         'API token generated from https://id.atlassian.com/manage-profile/security/api-tokens.',
       jiraPasswordTip:
         'Optional password for Jira Server/Data Center environments.',
+      mysqlDescription:
+        'Connect to MySQL database to sync data from tables using SQL queries.',
+      mysqlQueryTip:
+        'SQL query to extract data from your database (e.g., SELECT * FROM products WHERE status = "active").',
+      mysqlContentColumnsTip:
+        'Comma-separated column names whose values will be combined as document content for vectorization.',
+      mysqlMetadataColumnsTip:
+        'Comma-separated column names to store as document metadata (not vectorized, but searchable).',
+      mysqlIdColumnTip:
+        'Column to use as unique document ID. If not specified, a hash of the content will be used.',
+      mysqlTimestampColumnTip:
+        'Datetime/timestamp column for incremental sync. Only rows modified after the last sync will be fetched.',
+      postgresqlDescription:
+        'Connect to PostgreSQL database to sync data from tables using SQL queries.',
+      postgresqlQueryTip:
+        'SQL query to extract data from your database (e.g., SELECT * FROM products WHERE status = \'active\').',
+      postgresqlContentColumnsTip:
+        'Comma-separated column names whose values will be combined as document content for vectorization.',
+      postgresqlMetadataColumnsTip:
+        'Comma-separated column names to store as document metadata (not vectorized, but searchable).',
+      postgresqlIdColumnTip:
+        'Column to use as unique document ID. If not specified, a hash of the content will be used.',
+      postgresqlTimestampColumnTip:
+        'Datetime/timestamp column for incremental sync. Only rows modified after the last sync will be fetched.',
       availableSourcesDescription: 'Select a data source to add',
       availableSources: 'Available sources',
       datasourceDescription: 'Manage your data source and connections',
