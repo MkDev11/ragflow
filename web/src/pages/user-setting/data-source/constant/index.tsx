@@ -840,7 +840,7 @@ export const DataSourceFormFields = {
       name: 'config.port',
       type: FormFieldType.Number,
       required: true,
-      defaultValue: 3306,
+      placeholder: '3306',
     },
     {
       label: 'Database',
@@ -914,7 +914,7 @@ export const DataSourceFormFields = {
       name: 'config.port',
       type: FormFieldType.Number,
       required: true,
-      defaultValue: 5432,
+      placeholder: '5432',
     },
     {
       label: 'Database',
@@ -939,7 +939,7 @@ export const DataSourceFormFields = {
       name: 'config.query',
       type: FormFieldType.Textarea,
       required: true,
-      placeholder: 'SELECT * FROM products WHERE status = \'active\'',
+      placeholder: "SELECT * FROM products WHERE status = 'active'",
       tooltip: t('setting.postgresqlQueryTip'),
     },
     {
