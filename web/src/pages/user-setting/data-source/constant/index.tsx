@@ -864,8 +864,8 @@ export const DataSourceFormFields = {
       label: 'SQL Query',
       name: 'config.query',
       type: FormFieldType.Textarea,
-      required: true,
-      placeholder: 'SELECT * FROM products WHERE status = "active"',
+      required: false,
+      placeholder: 'Leave empty to load all tables',
       tooltip: t('setting.mysqlQueryTip'),
     },
     {
@@ -914,8 +914,8 @@ export const DataSourceFormFields = {
       label: 'SQL Query',
       name: 'config.query',
       type: FormFieldType.Textarea,
-      required: true,
-      placeholder: "SELECT * FROM products WHERE status = 'active'",
+      required: false,
+      placeholder: 'Leave empty to load all tables',
       tooltip: t('setting.postgresqlQueryTip'),
     },
     {
