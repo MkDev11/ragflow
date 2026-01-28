@@ -788,7 +788,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
         'Similar to the presence penalty, this reduces the model’s tendency to repeat the same words frequently.',
       maxTokens: 'Max tokens',
       maxTokensMessage: 'Max tokens is required',
-      maxTokensTip: `This sets the maximum length of the model's output, measured in the number of tokens (words or pieces of words). Defaults to 512. If disabled, you lift the maximum token limit, allowing the model to determine the number of tokens in its responses.`,
+      maxTokensTip: `The maximum context size of the agent; an invalid or incorrect value will cause an error. Defaults to 512.`,
       maxTokensInvalidMessage: 'Please enter a valid number for Max tokens.',
       maxTokensMinMessage: 'Max tokens cannot be less than 0.',
       quote: 'Show quote',
@@ -1029,7 +1029,7 @@ Example: Virtual Hosted Style`,
       postgresqlDescription:
         'Connect to PostgreSQL database to sync data from tables using SQL queries.',
       postgresqlQueryTip:
-        'SQL query to extract data from your database (e.g., SELECT * FROM products WHERE status = \'active\').',
+        "SQL query to extract data from your database (e.g., SELECT * FROM products WHERE status = 'active').",
       postgresqlContentColumnsTip:
         'Comma-separated column names whose values will be combined as document content for vectorization.',
       postgresqlMetadataColumnsTip:
@@ -1050,7 +1050,7 @@ Example: Virtual Hosted Style`,
       profileDescription: 'Update your photo and personal details here.',
       maxTokens: 'Max tokens',
       maxTokensMessage: 'Max tokens is required',
-      maxTokensTip: `This sets the maximum length of the model's output, measured in the number of tokens (words or pieces of words). Defaults to 512. If disabled, you lift the maximum token limit, allowing the model to determine the number of tokens in its responses.`,
+      maxTokensTip: `The maximum context size of the agent; an invalid or incorrect value will cause an error. Defaults to 512.`,
       maxTokensInvalidMessage: 'Please enter a valid number for Max tokens.',
       maxTokensMinMessage: 'Max tokens cannot be less than 0.',
       password: 'Password',
