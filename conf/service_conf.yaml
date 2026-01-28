@@ -42,7 +42,7 @@ oceanbase:
 redis:
   db: 1
   username: ''
-  password: ''
+  password: 'infini_rag_flow'
   host: 'localhost:6379'
 task_executor:
   message_queue_type: 'redis'
